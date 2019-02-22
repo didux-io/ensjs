@@ -18,7 +18,7 @@ var Promise = require('bluebird');
 var textEncoding = require('text-encoding');
 var TextDecoder = textEncoding.TextDecoder;
 var _ = require('underscore');
-var Web3 = require('web3');
+var Web3 = require('@smilo-platform/web3');
 var utils = require('./src/utils.js');
 var abi = require('./src/abi.js');
 
@@ -175,7 +175,7 @@ Resolver_1.prototype.contract = function() {
  * Example usage:
  *
  *     var ENS = require('ethereum-ens');
- *     var Web3 = require('web3');
+ *     var Web3 = require('@smilo-platform/web3');
  *
  *     var web3 = new Web3();
  *     var ens = new ENS(web3);
@@ -425,7 +425,7 @@ Resolver_0.prototype.contract = function() {
  * Example usage:
  *
  *     var ENS = require('ethereum-ens');
- *     var Web3 = require('web3');
+ *     var Web3 = require('@smilo-platform/web3');
  *
  *     var web3 = new Web3();
  *     var ens = new ENS(web3);
