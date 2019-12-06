@@ -49,7 +49,7 @@ Example usage:
 
 ```javascript
 var ENS = require('ethereum-ens');
-var Web3 = require('@smilo-platform/web3');
+var Web3 = require('@didux-io/web3');
 
 var provider = new Web3.providers.HttpProvider();
 var ens = new ENS(provider);
