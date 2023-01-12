@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "ganache-cli": "^6.1.0",
-    "mocha": "^3.0.2",
+    "mocha": "^10.2.0",
     "npm-install-version": "^6.0.2",
     "solc": "0.4.9",
     "web3-utils": "^1.0.0-beta.34"
